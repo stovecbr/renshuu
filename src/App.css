@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.red{
+  color :red;
+  font-weight: bold;
+  font-size: 50px
+}
+.black{
+  color :black;
+  text-decoration: underline;
+}
+.blue{
+  color :blue;
+  font-style: italic;
+  border: dashed 2px skyblue;
+}
