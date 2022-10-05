@@ -3,23 +3,35 @@
 }
 
 .red{
-  color :red;
+  background:red;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
   
 }
 .black{
-  color :black;
+  background :skyblue;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
 
 }
 .blue{
-  color :blue;
+  background :blue;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
   
 }
 .buttonDown{
+ 
   background:gray;
   width:50px;
   height:50px;
   border-radius:50%;
+  border: 0px;
   color: white;
+
 }
 
 .buttonUp{
@@ -27,7 +39,21 @@
   width:50px;
   height:50px;
   border-radius:50%;
+  border: 0px;
   color: white;
+}
+
+.circle{
+ 
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+
+  margin: 20px auto;
+ 
+  color: white;
+ 
 }
 
 
