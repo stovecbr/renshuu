@@ -54,11 +54,18 @@ setCount(newCount);
   return (
     <div className="App">
       {/* －ボタンをクリックしたらhandleClickDownを実行する */}
-      <button onClick={handleClickDown}>－</button>
-      {/* ＋ボタンをクリックしたらhandleClickDownを実行する */}
-      <button onClick={handleClickUp}>＋</button>
+     
+     
+      <button className="buttonDown" onClick={handleClickDown}>－</button>
+
+
       {/* ステート"color"を適用して、値を表示 */}
-     <p className={`${color}`}>{count}</p>
+   
+      <p className={`${color}`}>{count}</p>
+
+
+      {/* ＋ボタンをクリックしたらhandleClickUpを実行する */}
+      <button className="buttonUp" onClick={handleClickUp}>＋</button>
 
     </div>
   );
